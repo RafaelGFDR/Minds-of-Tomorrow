@@ -1,98 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
-html {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-.section1 {
-    background-size: cover;
-    height: 42vh;
-    padding-left: 7%;
-    padding-right: 7%;
-    display: flex;
-}
-
-.section1 h1 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.section2 {
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
-.section2 img {
-    height: 100%;
-    width: 100%;
-}
-
-.section2 h2 {
-    font-size: 4vh;
-}
-
-.section2 p {
-    font-size: x-large;
-}
-
-.section3 {
-    background-color: #25eda5;
-    text-align: center;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-bottom: 12px;
-}
-
-.section3 h2 {
-    font-size: 4vh;
-}
-
-.section3 img {
-    height: 80%;
-    width: 80%;
-}
-
-.section3 p {
-    font-size: xx-small;
-}
-
-.section4 {
-    font-size: large;
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
-.section4 img {
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
-.section5 img {
-    height: 100%;
-    width: 100%;
-}
-
-.section6 {
-    background-color: #46a6fc;
-    text-align: center;
-    padding-left: 7%;
-    padding-right: 7%;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 
 /* Redimensión de fuente utilizando rem */
 
 h1 {
-    font-size: 3rem;
+    font-size: 5.5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3.3rem;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 3.3rem;
 }
 
 h4 {
@@ -107,8 +26,9 @@ h6 {
     font-size: 1.05rem;
 }
 
-
-/**************************/
+p {
+    font-size: 2rem;
+}
 
 
 /* clases predefinidas */
@@ -119,6 +39,7 @@ h6 {
 
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -171,13 +92,74 @@ body {
 
 /* Otras clases */
 
-.centrado {
-    text-align: center;
+html {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-img {
-    height: 100px;
-    object-fit: cover;
+.section1 {
+    background-size: cover;
+    height: 100vh;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+}
+
+.section1 h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.section2 {
+    padding: 5%;
+}
+
+.section2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section3 {
+    background-color: #25eda5;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 12px;
+}
+
+.section3 p {
+    font-size: 1rem;
+}
+
+.section3 img {
+    height: 80%;
+    width: 80%;
+}
+
+.section4 {
+    font-size: large;
+    padding: 5%;
+}
+
+.section4 img {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.section5 img {
+    height: 100%;
+    width: 100%;
+}
+
+.section6 {
+    background-color: #46a6fc;
+    text-align: center;
+    padding: 3%;
+}
+
+.centrado {
+    text-align: center;
 }
 
 .padding-m {
@@ -186,8 +168,13 @@ img {
 
 #footer {
     font-size: xx-small;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    font-size: 1rem;
 }
 
 .flex {
@@ -221,5 +208,9 @@ img {
     .section1 {
         background-size: cover;
         height: 70vh;
+    }
+    body {
+        margin: 0%;
+        width: 100%;
     }
 }
